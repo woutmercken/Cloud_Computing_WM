@@ -1,0 +1,31 @@
+<link rel='stylesheet' href='/stylesheets/third_style.css'>
+<a href="/"> Home </a>
+    {{~#if student~}}
+ <form action="{{url}}" method='POST'>
+     <input class="studentName" type="text" name="studentName" value="{{name}}">
+     <table>
+     <tr>
+         <th>Course</th>
+         <th>Teacher</th>
+         <th>Score</th>
+     </tr>
+     {{#each courses}}
+        <tr>
+            <td>{{this.courseName}}</td>
+            <td>{{this.teacher}}</td>
+            <td><input type="text" name="scores" value="{{this.score}}">
+        </tr>
+     {{/each}}
+ </table>
+ <input type="submit" value="Wijzigingen opslaan"></button>
+ </form>
+ {{~else~}}
+    <h2>Geef een student zijn naam in om zijn vakken te zoeken</h2>
+    <form action="{{url}}" method='POST'>
+        <div>
+            <label for="name" >Student name:</label>
+            <input type="text" name="name">
+        </div>
+        <input type="submit" value="Zoeken">
+    </form>
+{{~/if~}}

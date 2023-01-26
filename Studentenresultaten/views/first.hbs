@@ -1,0 +1,42 @@
+<link rel='stylesheet' href='/stylesheets/first_style.css'>
+<a href="/"> Home </a>
+<h2>Geef een student zijn naam in om zijn vakken te zoeken</h2>
+ <form action="{{url}}" method='POST'>
+     <div>
+        <label for="name">Student name:</label>
+        <input type="text" name="name">
+     </div>
+     <br>
+     <div>
+        <label for="course">Course name:</label>
+        <input type="text" name="course"> 
+     </div>   
+     <br>
+     <input type="submit" value="Zoeken">
+ </form>
+ {{#if errors}}
+    {{#each errors}}
+        <small>{{this.msg}}</small>
+    {{/each}}
+ {{/if}}
+ {{~#if student~}}
+ <h3>{{id}}: {{name}}</h3>
+ <table>
+     <tr>
+         <th>Course</th>
+         <th>Teacher</th>
+         <th>Score</th>
+     </tr>
+     {{#each courses}}
+        <tr>
+            <td>{{this.courseName}}</td>
+            <td>{{this.teacher}}</td>
+            {{#if (isGreaterThan9 this.score)}}
+            <td>{{this.score}}</td>
+            {{else}}
+            <td class="red">{{this.score}}</td>
+            {{/if}}
+        </tr>
+     {{/each}}
+ </table>
+{{~/if~}}

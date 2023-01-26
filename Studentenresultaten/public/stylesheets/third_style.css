@@ -1,0 +1,79 @@
+body{
+    background-color: #ffffff;
+    text-align: center;
+}
+p {
+    margin: 0  5%;
+    font-size: 20px;
+}
+table{
+    margin-left: 33%;
+    width: 33%;
+    margin-bottom: 1%;
+}
+td:nth-child(even){
+    background-color: rgb(208, 217, 219);
+}
+th{
+    color: white;
+    background-color: black;
+}
+.red{
+    color: red;
+}
+a {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 5%;
+    left: -35%;
+    margin-top: 1%;
+    position: block;   
+}
+
+input[type=submit]{
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0.5%;
+}
+
+small{
+    font-size: 13px;
+    color: red;
+}
+
+div{
+    margin-bottom: 0.25%;
+}
+
+.studentName{
+    border: none;
+    background: transparent;
+    outline: none;
+    padding:0;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0.5%;
+    margin-left: 1%;
+}

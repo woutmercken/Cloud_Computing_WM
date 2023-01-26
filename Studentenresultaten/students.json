@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Wout Mercken",
+        "courses": [
+            {
+                "courseName": "Web expert",
+                "teacher": "Niek Vandael",
+                "score": 12
+            },
+            {
+                "courseName": "Data mining",
+                "teacher": "Sam van Rijn",
+                "score": 8
+            },
+            {
+                "courseName": "Neural networks",
+                "teacher": "Nele Custers",
+                "score": 14
+            },
+            {
+                "courseName": "AI & robotics",
+                "teacher": "Tim Dupont",
+                "score": 12
+            },
+            {
+                "courseName": "Software engineering",
+                "teacher": "Kris Hermans",
+                "score": 7
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Mil Cuyvers",
+        "courses": [
+            {
+                "courseName": "Web expert",
+                "teacher": "Niek Vandael",
+                "score": 15
+            },
+            {
+                "courseName": "Data mining",
+                "teacher": "Sam van Rijn",
+                "score": 14
+            },
+            {
+                "courseName": "Neural networks",
+                "teacher": "Nele Custers",
+                "score": 3
+            },
+            {
+                "courseName": "AI & robotics",
+                "teacher": "Tim Dupont",
+                "score": 11
+            },
+            {
+                "courseName": "Software engineering",
+                "teacher": "Kris Hermans",
+                "score": 18
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Joran Nuyts",
+        "courses": [
+            {
+                "courseName": "Web expert",
+                "teacher": "Niek Vandael",
+                "score": 13
+            },
+            {
+                "courseName": "Data mining",
+                "teacher": "Sam van Rijn",
+                "score": 14
+            },
+            {
+                "courseName": "Neural networks",
+                "teacher": "Nele Custers",
+                "score": 15
+            },
+            {
+                "courseName": "AI & robotics",
+                "teacher": "Tim Dupont",
+                "score": 7
+            },
+            {
+                "courseName": "Software engineering",
+                "teacher": "Kris Hermans",
+                "score": 7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Lars Debloudts",
+        "courses": [
+            {
+                "courseName": "Web expert",
+                "teacher": "Niek Vandael",
+                "score": 7
+            },
+            {
+                "courseName": "Data mining",
+                "teacher": "Sam van Rijn",
+                "score": 8
+            },
+            {
+                "courseName": "Neural networks",
+                "teacher": "Nele Custers",
+                "score": 9
+            },
+            {
+                "courseName": "AI & robotics",
+                "teacher": "Tim Dupont",
+                "score": 10
+            },
+            {
+                "courseName": "Software engineering",
+                "teacher": "Kris Hermans",
+                "score": 11
+            }
+        ]
+    }
+]
+ 

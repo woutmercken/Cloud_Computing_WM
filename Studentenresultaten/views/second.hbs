@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='/stylesheets/second_style.css'>
+    </head>
+    <body>
+        <a href="/"> Home </a>
+        <h2>Geef het mininum aantal onvoldoendes</h2>
+         <form action="{{url}}" method='POST'>
+            <input type="text" name="number">
+            <input type="submit" value="Zoeken">
+        </form>
+        {{#if errors}}
+            {{#each errors}}
+                <small>{{this.msg}}</small>
+            {{/each}}
+        {{/if}}
+        <table>
+            <tr>
+                <th>Studenten met het aantal onvoldoendes</th>
+            </tr>
+            {{#each students}}
+            <tr>
+                <td>{{this}}</td>
+            </tr>               
+            {{/each}}
+        </table>
+        
+    </body>
+</html>
