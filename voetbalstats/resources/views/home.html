@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voetbalstatistieken</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/app.css">
+        <script type="text/javascript" src="../js/app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Voetbalstatistieken</h2>
+        </header>
+        <div id="minMax">
+            <h3>Zoek op het aantal <select name="stats" id="stats" onchange="onSelectChange()">
+                <option value="Goals">goals</option>
+                <option value="Assists">assists</option>
+                <option value="Rode kaarten">kaarten</option>
+              </select>:</h3>
+            <input type="range" min="0" max="500" value="0" class="slider" id="min">
+            <br>
+            <p>Min: <span id="minDisplay"></span></p>
+            <input type="range" min="0" max="500" value="0" class="slider" id="max">
+            <p>Max: <span id="maxDisplay"></span></p>
+            <button onClick="fetchGoals()" type="button" id="search">Zoek</button>
+            <br>
+            <br>
+            <table id="output">
+                <tr>
+                    <th>Speler</th>
+                    <th id="stat">Goals</th>
+                </tr>
+            </table>
+        </div>
+        <script>                  
+            var slider = document.getElementById("min");
+            var output = document.getElementById("minDisplay");
+            output.innerHTML = slider.value;
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            }
+
+            var slider2 = document.getElementById("max");
+            var output2 = document.getElementById("maxDisplay");
+            output2.innerHTML = slider2.value;
+            slider2.oninput = function() {
+                output2.innerHTML = this.value;
+            }
+        </script>
+    </body>
+</html>
