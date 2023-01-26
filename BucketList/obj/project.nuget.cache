@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W/4m5/XdP2lXqmGBmpXLCcH7+Qzgsk8GThlpApQNY/a7pSnQ61wyXA8ycAMY/JSGFtoAaF2zq5UEmtg1uE4c5Q==",
+  "dgSpecHash": "beWx2/lwNo39Faz4JP+sSOIU30wvzL3WmTcZGXrxIatjkcllkhKDB32Z9d6SJQpuFSVCtIzDM5VFgQ1BG0RJpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\11900766\\Documents\\Cloud_computing\\BucketList\\BucketList.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Cloud_Computing_WM\\BucketList\\BucketList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\11900766\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\11900766\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

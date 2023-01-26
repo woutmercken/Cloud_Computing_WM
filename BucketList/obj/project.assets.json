@@ -10318,11 +10318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\11900766\\Documents\\Cloud_computing\\BucketList\\BucketList.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Cloud_Computing_WM\\BucketList\\BucketList.csproj",
       "projectName": "BucketList",
-      "projectPath": "C:\\Users\\11900766\\Documents\\Cloud_computing\\BucketList\\BucketList.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\Cloud_Computing_WM\\BucketList\\BucketList.csproj",
       "packagesPath": "C:\\Users\\11900766\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\11900766\\Documents\\Cloud_computing\\BucketList\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\Cloud_Computing_WM\\BucketList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\11900766\\AppData\\Roaming\\NuGet\\NuGet.Config"
