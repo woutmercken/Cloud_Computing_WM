@@ -8,3 +8,7 @@ Dit is gemaakt met php en laravel en de database bevindt zich in localhost/phpmy
 # Bucketlist
 Hier kan een persoon items toevoegen aan zijn/haar bucketlist en deze dan met een Get-request terug opvragen.
 Dit is gemaakt met c# en maakt gebruik van een in-memory database
+
+# Studentenresultaten
+Hier kunnen verschillende studenten hun resultaten weergeven en gewijzigd worden. Dit is gemaakt met nodejs en express.
+Voor de database wordt gebruik gemaakt van mongoDB
